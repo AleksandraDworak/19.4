@@ -5,7 +5,7 @@ console.log('ZADANIE 1');
 	const strWorld = 'world';
 	console.log(`${strHello} ${strWorld}`);
 
-//ZADANIE 2 
+//ZADANIE 2
 console.log('ZADANIE 2');
 
 	const multiply = (x, y=1)  => console.log(x * y);
@@ -32,6 +32,5 @@ console.log('ZADANIE 4');
 console.log('ZADANIE 5');
 
 	const arr = [1, 4, 'Iwona', false, 'Nowak'];
-	const [,,firstName,,,] = arr;
-	const [,,,,lastName] = arr;
+	const [,,firstName,,lastName] = arr;
 	console.log(`${firstName}, ${lastName}`);
